@@ -7,8 +7,10 @@
 		<link href="style.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	</head>
-	<body>
-		<!--Navigation-->
+	<body class="bg-light">
+	
+	<!--Navigation-->
+		
 			<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 				<div class="container-fluid">
 					<h1 class="display-4" style="font-size:30px">My Website</h1>
@@ -26,13 +28,18 @@
 					</div>
 				</div>
 			</nav>
-		<!--Photo-->
-			<div>
-				<img src="imgs/hero.jpg" alt="photo" class="w-100">
-			</div>
-		<!--Icons-->
-			<div class="container-fluid justify-content-center">
-				<div class="row jumbotron justify-content-center">
+			
+	<!--Photo-->
+		
+			<figure>
+				<img src="imgs/hero.jpg" alt="photo" class="w-100 img-responsive">
+				<figcaption class="bg-success p-3 h3 text-white text-center text-over">We strive to make all of our creations exquisite</figcaption>
+			</figure>
+			
+	<!--Icons-->
+		
+			<div class="container-fluid">
+				<div class="row jumbotron">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 text-center">
 						<img src="imgs/icon-1.png" alt="Icon_1">
 						<p class="h4">Purpose</p>
@@ -55,10 +62,114 @@
 					</div>
 				</div>
 			</div>
-		<!--Content-->
+			
+	<!--Content-->
 		
-		<!--Footer-->
-		
+			<div class="container-fluid p-5">
+				<p class="h3">RECENT WORK</p>
+				<hr>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+						<img src="imgs/bike-400x340.jpg"alt="Bike" class="img-fluid">
+						<p class="h4">Green Bike</p>
+						<p class="lead small">Beatiful, Travel</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+						<img src="imgs/surf-400x340.jpg" alt="Surf" class="img-fluid">
+						<p class="h4">Salt Of The Earth</p>
+						<p class="lead small">Beatiful, Travel</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+						<img src="imgs/hills-400x340.jpg"alt="Hills" class="img-fluid">
+						<p class="h4">Mountain High</p>
+						<p class="lead small">Travel</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+						<img src="imgs/path-400x340.jpg"alt="Path" class="img-fluid">
+						<p class="h4">When A Tree Falls</p>
+						<p class="lead small">Beatiful</p>
+					</div>
+				</div>
+				<p class="h3 mt-5">FROM THE BLOG</p>
+				<hr>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+						<img src="imgs/cow-640x340.jpg" alt="Cow" class="img-fluid">
+						<p class="h4">How Now</p>
+						<p class="lead small font-weight-bold">Posted on October 28,2020</p>
+						<p class="lead small">Proin et ligula laoreet, vestibulum orci nec, eleifend purus. Quisque ullamcorper sem at ipsum elementum laoreet. Integer egestas</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+						<img src="imgs/sunrise-640x340.jpg" alt="Sunrise" class="img-fluid">
+						<p class="h4">Adrift by Simon Christen</p>
+						<p class="lead small font-weight-bold">Posted on September 29,2020</p>
+						<p class="lead small">Proin et ligula laoreet, vestibulum orci nec, eleifend purus. Quisque ullamcorper sem at ipsum elementum laoreet. Integer egestas</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+						<img src="imgs/grass-640x340.jpg" alt="Grass" class="img-fluid">
+						<p class="h4">A Walk In The Park</p>
+						<p class="lead small font-weight-bold">Posted on August 10,2020</p>
+						<p class="lead small">Proin et ligula laoreet, vestibulum orci nec, eleifend purus. Quisque ullamcorper sem at ipsum elementum laoreet. Integer egestas</p>
+					</div>
+				</div>
+			</div>
+			
+	<!--Footer-->
+	
+			<div class="container-fluid bg-dark p-5">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+						<p class="h5 text-white mb-4">My Website</p>
+						<p class="text-secondary">Quisque id dolor leo. Vivamus tincidunt in diam ac condimentum. Quisque rutrum dolor dolor, non tincidunt tellus sollicitudin vitae. Mauris a dolor ut nibh volutpat aliquam. Sed dictum magne eu massa accumsan, sit amet viverra ligula gravida. Nam vehicula ut leo aliquet sodales.</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+						<p class="h5 text-white mb-4">Recent Posts</p>
+						<table class="table table-hover table-dark">
+							<tr>
+								<th class="small text-light p-2 border-secondary">How Now</th>
+							</tr>
+							<tr>
+								<th class="small text-light p-2 border-secondary">Adrift by Simon Christen</th>
+							</tr>
+							<tr>
+								<th class="small text-light p-2 border-secondary">A Walk In The Park</th>
+							</tr>
+							<tr>
+								<th class="small text-light p-2 border-secondary">Time To Think</th>
+							</tr>
+							<tr>
+								<th class="small text-light p-2 border-bottom border-secondary">Field Of Dreams</th>
+							</tr>
+						</table>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+						<p class="h5 text-white mb-4">Recent Works</p>
+						<table class="table table-hover table-dark">
+							<tr>
+								<th class="small text-light p-1 border-secondary">Beautiful</th>
+							</tr>
+							<tr>
+								<th class="small text-light p-1 border-secondary">Travel</th>
+							</tr>
+							<tr>
+								<th class="small text-light p-1 border-secondary">Surreal</th>
+							</tr>
+							<tr>
+								<th class="small text-light p-1 border-secondary">Thoughts</th>
+							</tr>
+							<tr>
+								<th class="small text-light p-1 border-bottom border-secondary">Unique</th>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid text-center p-4 text-secondary" style="background-color:#000;">
+				<p>&copy; 2020 ITAcademy</p>
+			</div>
+			
+	<!-- JavaScript-->
+	
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
