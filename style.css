@@ -1,3 +1,17 @@
-.display-4 {
-	font-size:5px;
+.pozicija {
+	position:absolute;
+	top:18%;
+	left:7%;
+	font-size:2vw;
+	background-color:#75daad;
+	padding:1%;
+	color:#fff;
 }
+
+.slika {
+	position:relative;
+}
+
+
+
+
